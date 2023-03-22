@@ -31,7 +31,7 @@ Build the package:
 
 ```bash
 cd ~/ros2_ws
-colcon build --packages-select xrm_imugnss_ros2_driver
+colcon build --packages-select witmotion_ros
 ```
 
 Source the setup file:
@@ -51,7 +51,7 @@ Now connect the WitMotion WTGAHRS2 IMU/GNSS sensor to your computer.
 Launch the driver using the provided launch file:
 
 ```bash
-ros2 launch xrm_imugnss_ros2_driver wtgahrs2.launch.py
+ros2 launch witmotion_ros gnssimu.launch.py
 ```
 
 The driver will publish the sensor data on appropriate ROS2 topics, which you can subscribe to and use in your applications.
