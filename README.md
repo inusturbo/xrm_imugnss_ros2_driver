@@ -51,6 +51,7 @@ Now connect the WitMotion WTGAHRS2 IMU/GNSS sensor to your computer.
 Launch the driver using the provided launch file:
 
 ```bash
+sudo chmod 777 /dev/ttyUSB0
 ros2 launch witmotion_ros gnssimu.launch.py
 ```
 
