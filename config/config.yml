@@ -62,7 +62,7 @@ witmotion:
     gps_publisher:
       enabled: true
       navsat_fix_frame_id: world
-      navsat_fix_topic_name: /gps
+      navsat_fix_topic_name: /sensing/gnss/ublox/nav_sat_fix
       navsat_altitude_topic_name: /gps_altitude
       navsat_satellites_topic_name: /gps_satellites
       navsat_variance_topic_name: /gps_variance
