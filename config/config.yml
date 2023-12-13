@@ -5,7 +5,7 @@ witmotion:
     polling_interval: 10 # ms
     restart_service_name: /restart_imu
     imu_publisher:
-      topic_name: /tamagawa/imu_raw
+      topic_name: /sensing/imu/tamagawa/imu_raw
       frame_id: tamagawa/imu_link
       use_native_orientation: false
       measurements:
